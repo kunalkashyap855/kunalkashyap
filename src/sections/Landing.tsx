@@ -14,7 +14,7 @@ function Landing() {
                 <p className="text-blue-500 font-extrabold text-7xl tracking-wide">Software Developer</p>
                 <p className="text-gray-900 text-2xl tracking-wide">Full-Stack Development / Machine Learning</p>
             </div>
-            <div className="flex justify-around px-16 my-8 laptop:flex-col laptop:w-1/12 laptop:items-center laptop:justify-around laptop:py-48">
+            <div className="flex justify-around px-16 my-8 laptop:flex-col laptop:w-1/12 laptop:items-center laptop:justify-around laptop:py-48 laptop:px-0 laptop:my-0">
                 <a href="https://www.linkedin.com/in/kunal-kashyap-233a9914a/" target="_blank">
                     <Image width={24} height={24} alt="LinkedIn" src="/linkedin.svg" />
                 </a>
