@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import Landing from '@/sections/Landing'
+import About from '@/sections/About'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Landing />
 
       {/* About Section - including Skills */}
+      <About />
 
       {/* Projects */}
 
