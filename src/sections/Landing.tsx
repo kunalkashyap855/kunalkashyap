@@ -30,16 +30,18 @@ function Landing() {
         <div className="flex flex-col items-center laptop:flex-row laptop:items-end laptop:justify-between">
             <div className="text-lg w-full laptop:max-w-md">
                 <p className="text-gray-900 leading-7">I’m a software engineer specializing in building highly performant applications that solve real-world problems and provide users with an awesome experience.</p>
-                <div className="text-gray-900 hover:text-black font-medium mt-6 laptop:w-max">
-                    Know More
-                    <Image
-                        src="/right.svg"
-                        alt="Right Arrow"
-                        width={20}
-                        height={20}
-                        className="w-max"
-                    />
-                </div>
+                <a href="#aboutSection">
+                    <div className="text-gray-900 hover:text-black font-medium mt-6 laptop:w-max">
+                        Know More
+                        <Image
+                            src="/right.svg"
+                            alt="Right Arrow"
+                            width={20}
+                            height={20}
+                            className="w-max"
+                        />
+                    </div>
+                </a>
             </div>
             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="underline text-lg hover:text-blue-700">Download Resume</a>
         </div>

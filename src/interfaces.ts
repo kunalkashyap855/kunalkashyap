@@ -1,7 +1,21 @@
 export interface skill {
     name: string;
-    logoUrl: string;
-    group: string;
+    logo_url: string;
+    category: string;
+}
+
+export interface university {
+    name: string;
+    program: string;
+    coursework: Array<string>;
+    image: string;
+}
+
+export interface workplace {
+    company: string;
+    position: string;
+    timeline: string;
+    work: string;
 }
 
 export interface project {
