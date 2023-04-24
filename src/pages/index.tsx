@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import Landing from '@/sections/Landing'
 import About from '@/sections/About'
+import Footer from '@/components/Footer'
 import { useRef } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +18,12 @@ export default function Home() {
       <About />
 
       {/* Projects */}
+
+
+      {/* Contact Section */}
+      <Footer />
+
+      {/* Footer */}
 
     </main>
   )
