@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="flex flex-col w-full h-36 p-6 laptop:h-32 laptop:p-6 bg-blue-500 items-center justify-between">
         <div className="text-sm font-medium text-gray-50">
-          Created by Kunal Kashyap, using <span><a href="https://nextjs.org" target="_blank" className="underline hover:font-semibold">Next.js</a> and</span> <span><a href="https://tailwindcss.com" target="_blank" className="underline hover:font-semibold">TailwindCSS</a></span>
+          Created by <span className="font-semibold">Kunal Kashyap</span>, using <span><a href="https://nextjs.org" target="_blank" className="underline hover:font-semibold">Next.js</a> and</span> <span><a href="https://tailwindcss.com" target="_blank" className="underline hover:font-semibold">TailwindCSS</a></span>
         </div>
         <div className="text-sm font-medium text-gray-50 text-center">The source code for this portfolio can be found on my GitHub <span><a href="https://github.com/kunalkashyap855/kunalkashyap" target="_blank" className="underline hover:font-semibold">repo</a></span>.</div>
         <div className="flex justify-around w-1/2 laptop:w-1/6">

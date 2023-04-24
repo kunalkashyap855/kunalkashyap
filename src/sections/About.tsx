@@ -9,12 +9,12 @@ import Image from "next/image"
 
 function SkillTile({ key, skill }: { key: string; skill: skill }) {
     return (
-        <div className="rounded-lg flex justify-around w-max h-12 p-2 shadow-md items-center">
+        <div className="rounded-lg flex gap-2 w-max h-12 p-2 shadow-md items-center">
             <Image 
                 alt={skill.name} 
                 src={skill.logo_url}
-                width={32}
-                height={32}
+                width={20}
+                height={20}
              />
             <div>{skill.name}</div>
         </div>
@@ -70,7 +70,7 @@ function About() {
             </div>
         </div>
         <p className="mt-6 text-blue-500 font-semibold text-2xl">Technologies I&#39;ve worked on</p>
-        <div className="flex flex-wrap w-full h-1/4 gap-4">
+        <div className="flex flex-wrap mt-4 w-full h-1/4 gap-4">
             {
                 skills.map(skill => {
                     return (

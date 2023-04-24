@@ -15,7 +15,7 @@ export interface workplace {
     company: string;
     position: string;
     timeline: string;
-    work: string;
+    work: Array<string>;
 }
 
 export interface project {
