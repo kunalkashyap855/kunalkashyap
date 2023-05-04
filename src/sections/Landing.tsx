@@ -31,8 +31,8 @@ function Landing() {
             <div className="text-lg w-full laptop:max-w-md">
                 <p className="text-gray-900 leading-7">I’m a software development engineer specializing in building highly performant applications that solve real-world problems and provide users with an awesome experience.</p>
                 <a href="#aboutSection">
-                    <div className="text-gray-900 hover:text-black font-medium mt-6 laptop:w-max">
-                        Know More
+                    <div className="flex gap-3 text-gray-900 hover:text-black font-medium mt-6 laptop:w-max">
+                        <div>Know More</div>
                         <Image
                             src="/right.svg"
                             alt="Right Arrow"

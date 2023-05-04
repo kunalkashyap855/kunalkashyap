@@ -3,6 +3,7 @@ import Landing from '@/sections/Landing'
 import About from '@/sections/About'
 import Footer from '@/components/Footer'
 import { useRef } from 'react'
+import Projects from '@/sections/Projects'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,12 +19,10 @@ export default function Home() {
       <About />
 
       {/* Projects */}
-
-
-      {/* Contact Section */}
-      <Footer />
+      <Projects />
 
       {/* Footer */}
+      <Footer />
 
     </main>
   )

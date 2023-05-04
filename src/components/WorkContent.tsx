@@ -1,10 +1,9 @@
 import { workplace } from "@/interfaces"
-import Image from "next/image"
 
 const WorkTile = ({ details }: { details: workplace }) => {
     return (
         <div className="flex flex-col w-full laptop:w-3/4 mb-10">
-            <p className="text-blue-500 font-semibold laptop:text-xl">{details.position} <span className="text-indigo-300">@ {details.company}</span></p>
+            <p className="text-blue-500 font-semibold laptop:text-xl">{details.position} <span className="text-indigo-400">@ {details.company}</span></p>
             <p className="text-gray-400 text-sm">{details.timeline}</p>
             <div className="mt-4 text-sm text-gray-900">
                 <ul>
@@ -32,12 +31,6 @@ const workDetails: Array<workplace> = [
         ]
     },
     {
-        "company": "Sourcefuse Technologies",
-        "position": "Full-Stack Software Developer",
-        "timeline": "June 2021 - August 2021",
-        "work": ["Lorem ipsum work."]
-    },
-    {
         "company": "The Right Guru",
         "position": "Lead Software Developer",
         "timeline": "February 2021 - June 2021",
@@ -47,15 +40,15 @@ const workDetails: Array<workplace> = [
             "Created a custom video call and chat application by implementing WebRTC and generating our own STUN and TURN servers for live 1:1 and group video classes."
         ]
     },
-    {
-        "company": "TATA Communications Transformation Services",
-        "position": "Software Development Intern",
-        "timeline": "June 2020 - August 2020",
-        "work": [
-            "Designed and developed the Fiber Splicing Portal which was used by field engineers to record their day-to-day jobs of repair and addition of fibers and visualization of statistics.",
-            "Tracked which fibers were serving which customer and which fibers were available for new connections and allowed the service providers to reduce their costs by 30%."
-        ]
-    },
+    // {
+    //     "company": "TATA Communications Transformation Services",
+    //     "position": "Software Development Intern",
+    //     "timeline": "June 2020 - August 2020",
+    //     "work": [
+    //         "Designed and developed the Fiber Splicing Portal which was used by field engineers to record their day-to-day jobs of repair and addition of fibers and visualization of statistics.",
+    //         "Tracked which fibers were serving which customer and which fibers were available for new connections and allowed the service providers to reduce their costs by 30%."
+    //     ]
+    // },
 ]
 
 function WorkContent() {

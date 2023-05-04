@@ -17,6 +17,11 @@ export const skills: Array<skill> = [
         category: "Languages"
     },
     {
+        name: "Go",
+        logo_url: "/skillLogos/go.svg",
+        category: "Languages"
+    },
+    {
         name: "Scala",
         logo_url: "/skillLogos/scala.svg",
         category: "Languages"
