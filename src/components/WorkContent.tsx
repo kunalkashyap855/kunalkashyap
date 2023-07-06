@@ -20,7 +20,7 @@ const workDetails: Array<workplace> = [
     {
         "company": "Advanced Micro Devices (AMD)",
         "position": "Software Engineer Intern",
-        "timeline": "June 2022 - Present",
+        "timeline": "June 2022 - May 2023",
         "work": [
             "Designed and developed enterprise software applications to automate key business processes that measure and optimize performance of post-Silicon EPYC server processors.",
             "Increased utilization of machines running jobs to 100%, resulting in multi-fold increase in workflow efficiency.",

@@ -37,9 +37,9 @@ const projectDetails: Array<project> = [
 function Projects() {
   return (
     <div className="w-full min-h-screen p-6 laptop:p-12">
-        <div className="w-full h-full bg-gray-200 bg-opacity-70 z-50 absolute flex justify-center items-center">
+        {/* <div className="w-full h-full bg-gray-200 bg-opacity-70 z-50 absolute flex justify-center items-center">
             <Image width={200} height={200} src="/wip.png" alt="Work In Progress" />
-        </div>
+        </div> */}
         <p id="projectSection" className="mb-6 text-blue-500 font-semibold text-2xl">Some Things I&#39;ve Built</p>
         <div className="grid grid-cols-1 grid-rows-6 laptop:grid-cols-2 laptop:grid-rows-3 gap-4 laptop:gap-8 w-full">
             {
