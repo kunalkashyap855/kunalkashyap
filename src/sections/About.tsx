@@ -44,7 +44,7 @@ function About() {
     }
 
   return (
-    <div id="aboutSection" className="flex flex-col w-full h-screen p-6 laptop:p-12">
+    <div id="aboutSection" className="flex flex-col w-full laptop:h-screen p-6 laptop:p-12">
         <div className="flex flex-col laptop:flex-row w-full h-full laptop:h-2/3 items-center">
             <div className="flex laptop:flex-col w-full laptop:w-32 justify-around laptop:justify-center laptop:h-full">
                 <AboutOption 
